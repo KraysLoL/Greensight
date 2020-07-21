@@ -43,7 +43,7 @@ if ($password == $check_password)
 			exit ('Данный email уже зарегистрирован');
 		}
 	}
-	echo 'Вы успешно зарегестрированы';
+	echo 'Вы успешно зарегистрированы';
 	file_put_contents('email.log', $email . ' Email успешно зарегистрирован пользователем '. $name . ' ' . $surname . PHP_EOL, FILE_APPEND);
 }
 else
