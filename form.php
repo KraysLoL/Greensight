@@ -27,8 +27,6 @@ $users = array(
 	)
 );
 
-$name = $_POST['name'];
-$surname = $_POST['surname'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 $check_password = $_POST['check_password'];
