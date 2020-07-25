@@ -4,7 +4,7 @@ $('#form_ajax').submit(function(){
          $("#form_ajax").serialize(), // отправляемые данные          
 
         function(msg) { // получен ответ сервера  
-        	if (msg == 'Вы успешно зарегестрированы')
+        	if (msg == 'Вы успешно зарегистрированы')
         	{
         		$('#form_ajax').hide();
         		$('#success').html(msg);
